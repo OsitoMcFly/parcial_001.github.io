@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+main {
+    width: 1366px;
+    height: 1858px;
+    background-color: rgb(212, 115, 10);
+}
+
+header {
+    width: 1366px;
+    height: 200px;
+    background-color: black;
+
+
+}
+
+nav {
+    width: 1366px;
+    height: 50px;
+    background-color: rgb(0, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-image: url(../imagenes/background_nav.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    padding: 15px;
+    transition: 1s;
+    color: rgb(202, 69, 12);
+}
+
+nav a:hover {
+    background-color: black;
+    transform: scale(1.2);
+
+}
+
+
+section {
+    width: 1366px;
+    height: 1136px;
+    background-color: rgb(233, 165, 65);
+
+    background-image: url(../imagenes/Background_main2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+section .nosotros {
+    width: 1366px;
+    height: 350px;
+
+    float: left;
+}
+
+.nosotros .video {
+    width: 700px;
+    height: 350px;
+    float: left;
+    padding: 22px;
+
+    margin-left: 33px;
+}
+
+.nosotros .texto {
+    width: 567px;
+    height: 350px;
+    float: left;
+    padding: 22px;
+text-align: left;
+    margin-left: 33px;
+    
+}
+
+.texto h1 {
+    color: rgb(202, 69, 12);
+
+}
+
+.texto h2 {
+    color: rgb(34, 56, 121);
+
+}
+
+.texto h3 {
+    color: rgb(0, 0, 0);
+
+}
+
+
+section .conferensistas {
+    width: 1366px;
+    height: 800px;
+
+    float: left;
+}
+
+.conferensistas .personas {
+    width: 314px;
+    height: 800px;
+    float: left;
+
+
+    margin-left: 22px;
+}
+
+.personas .info {
+    width: 314px;
+
+    height: 450px;
+    float: left;
+    background-color: rgba(240, 169, 38, 0.492);
+    padding: 22px;
+}
+
+.info h2{
+color: rgb(202, 69, 12);
+
+}
+.info h3{
+    color: rgb(34, 56, 121);
+    
+    }
+
+.personas .imagen {
+    width: 314px;
+    height: 314px;
+    float: left;
+    background-color: rgba(240, 169, 38, 0.492);
+    padding: 22px;
+
+
+}
+
+.imagen img {
+    text-align: center;
+    height: 100%;
+}
+
+footer {
+    background-color: black;
+    width: 1366px;
+    height: 494px;
+
+}
+
+footer .abajo {
+    width: 1366px;
+    height: 494px;
+    float: left;
+
+
+}
+
+.abajo .mapa {
+    width: 600px;
+    height: 450px;
+    float: left;
+    margin-top: 22px;
+    margin-left: 22px;
+
+}
+
+.abajo .comentarios {
+    width: 700px;
+
+    height: 450px;
+    float: left;
+    margin-top: 22px;
+    margin-left: 22px;
+}
+.comentarios h4{
+color: rgb(255, 255, 255);
+
+}
